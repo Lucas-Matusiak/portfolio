@@ -36,7 +36,6 @@ const iconLinks: {
         icon="terminal-window"
         color="var(--accent-regular)"
         size="1.6em"
-        gradient
       />
       Matusiak Lucas
     </a>
@@ -205,8 +204,6 @@ const iconLinks: {
 
   .menu-button[aria-expanded="true"] {
     color: var(--gray-0);
-    background: linear-gradient(180deg, var(--gray-600), transparent),
-      radial-gradient(var(--gray-900), var(--gray-800) 150%);
   }
 
   .menu-button[hidden] {
@@ -217,7 +214,6 @@ const iconLinks: {
     position: absolute;
     inset: -1px;
     content: "";
-    background: var(--gradient-stroke);
     border-radius: 999rem;
     z-index: -1;
   }
@@ -300,12 +296,12 @@ const iconLinks: {
       margin-right: 0em;
       padding-left: 2em;
       padding-right: 2em;
-      border: 1px solid var(--gray-800);
-      border-radius: 0.75rem;
+      border-bottom: 1px solid var(--gray-800);
       border-width: 1px;
       align-self: center;
       max-width: 1285px;
       width: -moz-available;
+      position: relative;
     }
 
     .site-title {
@@ -333,16 +329,12 @@ const iconLinks: {
 
     .link {
       padding: 0.5rem 1rem;
-      border-radius: 999rem;
-      transition:
-        color var(--theme-transition),
-        background-color var(--theme-transition);
+      border: 1px solid rgba(255, 255, 255, 0);
     }
 
     .link:hover,
     .link:focus {
-      color: var(--gray-100);
-      background-color: var(--accent-subtle-overlay);
+      color: var(--accent-overlay);
     }
 
     .link.active {
