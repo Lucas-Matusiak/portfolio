@@ -39,10 +39,12 @@ const projects = (await getCollection("work"))
             <Pill><Icon icon="pencil-line" size="1.33em" /> Concepteur</Pill>
             <Pill><Icon icon="sun" size="1.33em" /> Artiste</Pill>
           </div>
-          <CallToAction href="mailto:lucasmatusiakpro@gmail.com">
-            Me contacter
-            <Icon icon="paper-plane-tilt" size="1em" />
-          </CallToAction>
+          <div class="contactme">
+            <CallToAction href="mailto:lucasmatusiakpro@gmail.com">
+              Me contacter
+              <Icon icon="paper-plane-tilt" size="1em" />
+            </CallToAction>
+          </div>
         </Hero>
 
         <img
@@ -110,12 +112,18 @@ const projects = (await getCollection("work"))
       grid-template-columns: 6fr 4fr;
       padding-inline: 2.5rem;
       gap: 3.75rem;
+      align-items: center;
     }
 
     .roles {
       margin-top: 0.5rem;
       display: flex;
+      align-self: center;
       gap: 0.5rem;
+    }
+
+    .contactme{
+      padding: 2em;
     }
 
     .hero img {
