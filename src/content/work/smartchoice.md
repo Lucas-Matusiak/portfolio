@@ -1,22 +1,18 @@
 ---
 title: Smartchoice
-publishDate: 2019-10-02 00:00:00
+publishDate: 2024-06-00 00:00:00
 img: /assets/smartchoice.svg
-img_alt: Soft pink and baby blue water ripples together in a subtle texture.
+img_alt: chapeau univeritaire avec le nom Smartchoice
 description: |
-  We developed brand positioning and design assets for the launch
-  of a new colored water product.
+  Outil de gestion de projets universitaires et de collaboration entre professeurs et étudiants, développé en application web Vue.js.
 tags:
-  - Design
-  - Branding
+- Design
+- Développement
+- Gestion de projet
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+Dans le cadre de notre projet de fin d'études, nous avons conceptualisé et développé Smartchoice, une application web conçue pour faciliter la gestion des projets universitaires et la communication entre professeurs et étudiants. Nous avons commencé par la phase de conception en utilisant Figma, où nous avons créé des maquettes intuitives qui répondent aux besoins des utilisateurs.
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+Le développement s'est fait sous Nuxt.js, ce qui nous a permis de créer une application dynamique et réactive. L'outil offre une interface conviviale pour la gestion de groupes de travail, le suivi des projets et le partage de ressources. Nous avons veillé à intégrer des fonctionnalités telles que la selection des projets, les notifications par rapports aux differentes phases : de la selection et au rendu du projet et un espace de gestion de groupe pour les professeurs.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
-
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+Travailler sur ce projet en équipe a été une expérience enrichissante, car cela nous a permis d'appliquer nos compétences en acquis au cours du Master MIAGE. L'itération constante et les retours d'expérience des utilisateurs ont été cruciaux pour affiner notre produit et garantir qu'il répond efficacement aux attentes des étudiants et des enseignants.
